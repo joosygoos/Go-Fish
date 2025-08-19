@@ -46,15 +46,15 @@ gcc main.c deck.c card.c player.c -o gofish
 
 ### Skills Used in This Code
 
-This project is a fantastic showcase of fundamental and intermediate C programming skills. It demonstrates not just knowledge of the language's syntax, but also the ability to design a logical, stateful application.
+This project showcases fundamental and intermediate C programming skills and demonstrates the design of a logical, stateful application.
 
-Here’s a breakdown of the skills involved:
+Some skills I've used throughout this project are:
 
 #### 1. Core C Programming & Software Engineering
 
-* **Modularity and Code Organization:** The use of multiple header files (`deck.h`, `player.h`, `card.h`) shows a strong understanding of software engineering principles. It separates concerns, making the code easier to read, maintain, and debug than if it were all in one giant file.
+* **Modularity and Code Organization:** The use of multiple header files (`deck.h`, `player.h`, `card.h`) shows a strong understanding of software engineering principles. By following the desing principle, separation of concerns, the code is made easier to read, maintain, and debug than if it were all in one giant file.
 * **Header Guards (implied):** A production-ready version of these header files would use header guards (`#ifndef`, `#define`, `#endif`) to prevent multiple inclusion errors, which is a critical skill in C/C++.
-* **Function Decomposition:** The logic is broken down into small, single-purpose functions like `shuffle()`, `deal_player_cards()`, `check_add_book()`, and `game_over()`. This is a cornerstone of good programming.
+* **Function Decomposition:** The logic is broken down into small, single-purpose functions like `shuffle()`, `deal_player_cards()`, `check_add_book()`, and `game_over()`.
 
 #### 2. Data Structures and Memory Management
 
